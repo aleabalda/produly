@@ -11,11 +11,10 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/todos" element={<ToDo />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/journal" element={<Journal />} />
-          {/* Redirect "/" to "/todos" or another default route */}
-          <Route path="/" element={<Home />} />
         </Routes>
       </Layout>
     </BrowserRouter>
