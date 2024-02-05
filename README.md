@@ -11,6 +11,7 @@ Users have access to a journal where they can write down whatever they want such
 
 # Documentation
 ![image](https://github.com/aleabalda/produly/assets/113554225/f12e0686-0dee-420a-a568-550f49585f71)
+
 implemented routing to switch between page urls
 
 ![image](https://github.com/aleabalda/produly/assets/113554225/55d3cdaf-bb5f-4b43-8039-3e3c4b8dc9ae)
