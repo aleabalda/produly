@@ -10,3 +10,4 @@ Users have access to a calendar that they can use to create important events and
 Users have access to a journal where they can write down whatever they want such as their goals for the day.
 
 # Documentation
+![image](https://github.com/aleabalda/produly/assets/113554225/f12e0686-0dee-420a-a568-550f49585f71)
