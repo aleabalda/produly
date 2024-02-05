@@ -20,3 +20,7 @@ implemented routing to switch between page urls
 implemented the above sidebar to display other pages and useNavigate to route to other pages
 - the sidebar data helps me keep the pages modular so if I want to add more I can just add another object to SidebarData
 
+## Current View of App (2024-02-04)
+![image](https://github.com/aleabalda/produly/assets/113554225/967f5b7e-13b3-4cbb-8548-928b7246e0d2)
+
+
