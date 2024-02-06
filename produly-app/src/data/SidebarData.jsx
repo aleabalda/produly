@@ -1,27 +1,27 @@
-import ListIcon from "@mui/icons-material/List";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
-import HomeIcon from "@mui/icons-material/Home";
+import ListIcon from '@mui/icons-material/List'
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
+import MenuBookIcon from '@mui/icons-material/MenuBook'
+import HomeIcon from '@mui/icons-material/Home'
 
 export const SidebarData = [
   {
-    name: "home",
+    name: 'home',
     icon: <HomeIcon />,
-    path: "/",
+    path: '/'
   },
   {
-    name: "to-do lists",
+    name: 'to-do lists',
     icon: <ListIcon />,
-    path: "/todos",
+    path: '/todos'
   },
   {
-    name: "calendar",
+    name: 'calendar',
     icon: <CalendarMonthIcon />,
-    path: "/calendar",
+    path: '/calendar'
   },
   {
-    name: "journal",
+    name: 'journal',
     icon: <MenuBookIcon />,
-    path: "/journal",
-  },
-];
+    path: '/journal'
+  }
+]

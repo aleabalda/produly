@@ -1,9 +1,9 @@
-function Home() {
+function Home () {
   return (
     <>
-      <h1 className="page-title">Home</h1>
+      <h1 className='page-title'>Home</h1>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home
