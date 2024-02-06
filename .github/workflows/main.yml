@@ -1,9 +1,9 @@
 name: Super-Linter
 
-on: push
+on: [push, pull_request]
 
 jobs:
-  super-lint:
+  super-linter:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
