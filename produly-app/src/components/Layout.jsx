@@ -21,10 +21,10 @@ function Layout ({ children }) {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div id={theme} className='App'>
+      <div id={theme} className='app'>
         <div className='header'>
           <h1 className='title'>produly</h1>
-          <button className='modeButton' onClick={toggleTheme}>
+          <button className='mode-button' onClick={toggleTheme}>
             {theme === 'light' ? <DarkModeIcon /> : <LightModeIcon />}
           </button>
         </div>

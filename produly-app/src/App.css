@@ -1,17 +1,18 @@
-.App {
+.app {
   width: 100vw;
   height: 100vh;
 }
 
 #light {
-  background-color: #F5EFED;
+  background-color: #f5efed;
 }
 
 #dark {
-  background-color: #533A71;
+  background-color: #533a71;
 }
 
-#light, #dark {
+#light,
+#dark {
   transition: background-color 0.3s ease; /* Smoothly transition the background color */
 }
 
@@ -23,36 +24,41 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 16px; 
+  padding: 10px 16px;
 }
 
-.header .title {
+.header,
+.title {
   flex-grow: 1;
 }
 
-#light .title {
-  color: #533A71;
+#light,
+.title {
+  color: #533a71;
 }
 
-#dark .title {
-  color: #F5EFED;
+#dark,
+.title {
+  color: #f5efed;
 }
 
-.modeButton {
+.mode-button {
   justify-content: end;
   background: none;
-	border: none;
-	padding: 0;
-	cursor: pointer;
+  border: none;
+  padding: 0;
+  cursor: pointer;
   margin-left: auto;
 }
 
-#light .modeButton {
-  color: #533A71;
+#light,
+.mode-button {
+  color: #533a71;
 }
 
-#dark .modeButton {
-  color: #F5EFED;
+#dark,
+.mode-button {
+  color: #f5efed;
 }
 
 .row {
@@ -64,48 +70,53 @@ body {
   padding-right: 10px;
 }
 
-#light .icon {
-  color: #F5EFED;
+#light,
+.icon {
+  color: #f5efed;
 }
 
-#dark .icon {
-  color: #533A71;
+#dark,
+.icon {
+  color: #533a71;
 }
 
 .row-name {
   font-style: italic;
 }
 
-#light .row-name {
-  color: #F5EFED;
+#light,
+.row-name {
+  color: #f5efed;
 }
 
-#dark .row-name {
-  color: #533A71;
+#dark,
+.row-name {
+  color: #533a71;
 }
 
 .main {
   display: flex;
 }
 
-#light .page-title {
-  color: #533A71;
+#light,
+.page-title {
+  color: #533a71;
 }
 
-#dark .page-title {
-  color: #F5EFED;
+#dark,
+.page-title {
+  color: #f5efed;
 }
 
 .sidebar {
-  padding-right: 4rem;  
+  padding-right: 4rem;
 }
 
-#light .sidebar {
-  background-color: #533A71;
+#light,
+.sidebar {
+  background-color: #533a71;
 }
 
 .page-content {
   padding-left: 10px;
 }
-
-
