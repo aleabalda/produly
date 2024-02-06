@@ -18,17 +18,17 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
   return (
     <>
-      <div>
+      <div className="sidebar">
         <ul>
           {SidebarData.map((val, key) => (
             <li
-              name="row"
+              className="row"
               id={location.pathname === val.path ? "active" : ""}
               key={key}
               onClick={() => handleNavigate(val.path)}
             >
-              <div id="icon">{val.icon}</div>
-              <div id="title">{val.name}</div>
+              <div className="icon">{val.icon}</div>
+              <div className="row-name">{val.name}</div>
             </li>
           ))}
         </ul>

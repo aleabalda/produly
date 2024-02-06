@@ -4,11 +4,11 @@
 }
 
 #light {
-  background-color: #ffffff;
+  background-color: #F5EFED;
 }
 
 #dark {
-  background-color: #1B1B1B;
+  background-color: #533A71;
 }
 
 #light, #dark {
@@ -26,12 +26,16 @@ body {
   padding: 10px 16px; 
 }
 
+.header .title {
+  flex-grow: 1;
+}
+
 #light .title {
-  color: #1B1B1B;
+  color: #533A71;
 }
 
 #dark .title {
-  color: #ffffff;
+  color: #F5EFED;
 }
 
 .modeButton {
@@ -44,9 +48,64 @@ body {
 }
 
 #light .modeButton {
-  color: #1B1B1B;
+  color: #533A71;
 }
 
 #dark .modeButton {
-  color: #ffffff;
+  color: #F5EFED;
 }
+
+.row {
+  cursor: pointer;
+  display: flex;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+#light .icon {
+  color: #F5EFED;
+}
+
+#dark .icon {
+  color: #533A71;
+}
+
+.row-name {
+  font-style: italic;
+}
+
+#light .row-name {
+  color: #F5EFED;
+}
+
+#dark .row-name {
+  color: #533A71;
+}
+
+.main {
+  display: flex;
+}
+
+#light .page-title {
+  color: #533A71;
+}
+
+#dark .page-title {
+  color: #F5EFED;
+}
+
+.sidebar {
+  padding-right: 4rem;  
+}
+
+#light .sidebar {
+  background-color: #533A71;
+}
+
+.page-content {
+  padding-left: 10px;
+}
+
+

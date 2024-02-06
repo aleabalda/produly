@@ -28,8 +28,10 @@ function Layout({ children }) {
             {theme === "light" ? <DarkModeIcon /> : <LightModeIcon />}
           </button>
         </div>
-        <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
-        <main>{children}</main>
+        <div className="main">
+          <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
+          <main className="page-content">{children}</main>
+        </div>
       </div>
     </ThemeContext.Provider>
   );
