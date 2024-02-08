@@ -13,4 +13,11 @@ Users have access to a journal where they can write down whatever they want such
 ### Current View of App (2024-02-04)
 ![image](https://github.com/aleabalda/produly/assets/113554225/967f5b7e-13b3-4cbb-8548-928b7246e0d2)
 
+## What I learned...
+### Linters
+I took the time to learn more about different linters used. I thought there would be one linter that is used by everyone and is "best practice".
+However, after researching and watching videos on linters I realized code format and structure is subjective, to an extent of course. Thus, I decided
+to create a super-linter workflow using github actions. This way when I push code to my repository I can see clearly what issues I have and where they are.
+
+
 
