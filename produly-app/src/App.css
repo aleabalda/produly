@@ -1,6 +1,6 @@
 .app {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #light {
@@ -11,14 +11,14 @@
   background-color: #533a71;
 }
 
-#light,
-#dark {
-  transition: background-color 0.3s ease; /* Smoothly transition the background color */
+#light, #dark {
+  transition: background-color 0.3s ease-in-out;
 }
 
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .header {
@@ -27,18 +27,11 @@ body {
   padding: 10px 16px;
 }
 
-.header,
-.title {
-  flex-grow: 1;
-}
-
-#light,
-.title {
+#light .title {
   color: #533a71;
 }
 
-#dark,
-.title {
+#dark .title {
   color: #f5efed;
 }
 
@@ -51,46 +44,43 @@ body {
   margin-left: auto;
 }
 
-#light,
-.mode-button {
+#light .mode-button {
   color: #533a71;
 }
 
-#dark,
-.mode-button {
+#dark .mode-button {
   color: #f5efed;
 }
 
 .row {
   cursor: pointer;
   display: flex;
+  padding: 10px;
 }
 
 .icon {
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
-#light,
-.icon {
+#light .icon {
   color: #f5efed;
 }
 
-#dark,
-.icon {
+#dark .icon {
   color: #533a71;
 }
 
 .row-name {
   font-style: italic;
+  font-size: x-large;
+  font-weight: bold;
 }
 
-#light,
-.row-name {
+#light .row-name {
   color: #f5efed;
 }
 
-#dark,
-.row-name {
+#dark .row-name {
   color: #533a71;
 }
 
@@ -98,23 +88,30 @@ body {
   display: flex;
 }
 
-#light,
 .page-title {
+  font-size: 50px;
+  margin: auto;
+}
+
+#light .page-title {
   color: #533a71;
 }
 
-#dark,
-.page-title {
+#dark .page-title {
   color: #f5efed;
 }
 
 .sidebar {
   padding-right: 4rem;
+  height: 100dvh;
 }
 
-#light,
-.sidebar {
+#light .sidebar {
   background-color: #533a71;
+}
+
+#dark .sidebar {
+  background-color: #f5efed;
 }
 
 .page-content {
