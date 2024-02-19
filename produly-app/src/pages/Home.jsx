@@ -8,7 +8,7 @@ function Home() {
             Take the first step towards greater productivity today. Create your
             first task right now!
           </p>
-          <button className="home-button">Create To-Do List</button>
+          <button className="home-button">Get Started</button>
         </section>
         <section className="right">
           <img
