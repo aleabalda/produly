@@ -3,7 +3,7 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import "../App.css";
 import Sidebar from "./Sidebar";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Outlet } from "react-router-dom";
 
 export const ThemeContext = createContext(null);
 
@@ -33,7 +33,7 @@ function Layout({ children }) {
           </button>
         </div>
         <hr className="header-border"></hr>
-        <main className="page">{children}</main>
+        <Outlet />
       </div>
     </ThemeContext.Provider>
   );
