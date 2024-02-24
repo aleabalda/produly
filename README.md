@@ -19,6 +19,10 @@ Users have access to a journal where they can write down whatever they want such
 ### Current View of App (2024-02-18)
 ![image](https://github.com/aleabalda/produly/assets/113554225/4fdfd272-682a-4279-b92b-968b60b30054)
 
+### Current View of App (2024-02-24)
+![image](https://github.com/aleabalda/produly/assets/113554225/d522b4f0-c05e-477d-a051-9ff45811e2ac)
+The above figure is the recently created calendar view (with a minor bug) in dark mode
+
 ## What I learned...
 ### Linters
 I took the time to learn more about different linters used. I thought there would be one linter that is used by everyone and is "best practice".
