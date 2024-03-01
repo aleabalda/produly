@@ -1,6 +1,11 @@
 # Produly
 A web app built for users to become more productive in a simple, effortless way.
 
+## How to Run
+Run the command `cd produly-app`
+Then run `npm run dev`
+Finally, take the link in the terminal to open up the app.
+
 ## Features
 ### To-Do List
 Users have to-do lists where they can create tasks and assign priorities to them.
